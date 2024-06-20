@@ -36,7 +36,7 @@ unset($pdo);
                         <td><?php echo $record['purok_no']; ?></td>
                         <td><img src="data:image/jpeg;base64,<?php echo base64_encode($record['photo']); ?>" width="100" alt="Profile Photo"></td>
                     </tr>
-                <?php endforeach; ?>
+                <?php endforeach; ?> 
             </tbody>
         </table>
     </div>
