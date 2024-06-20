@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // SQL query to check if the provided username and password match a user in the database
     $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
-    $result = mysqli_query($conn, $sql);
+    $result = mysqli_query($conn, $sql); 
 
     if (mysqli_num_rows($result) == 1) {
         // Login successful
