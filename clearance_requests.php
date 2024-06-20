@@ -5,7 +5,7 @@ include 'configure.php';
 // Fetch clearance requests and related user information from the database
 $query = "SELECT * FROM clearance_requests"; 
 $stmt = $pdo->query($query);
-$clearance_requests = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$clearance_requests = $stmt->fetchAll(PDO::FETCH_ASSOC); 
 
 // Close the database connection
 unset($pdo); 
