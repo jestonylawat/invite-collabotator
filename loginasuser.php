@@ -9,7 +9,7 @@
     @media (max-width: 575.98px) {
       #login-form {
         width: 100% !important;
-        padding: 1rem !important;
+        padding: 1rem !important; 
       }
     }
   </style>
