@@ -9,7 +9,7 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $username = $_POST['username'];
-    $password = $_POST['password'];
+    $password = $_POST['password']; 
 
     // SQL query to check if the provided username and password match a user in the database
     $sql = "SELECT * FROM users WHERE username='$username' AND password='$password'";
