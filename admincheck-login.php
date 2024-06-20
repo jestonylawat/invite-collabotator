@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt === false) {
         error_log("Failed to prepare statement: " . $conn->error);
         echo "failure";
-        exit;
+        exit; 
     }
 
     $stmt->bind_param("ss", $username, $password);
