@@ -5,7 +5,7 @@ include 'configure.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve request ID and action from the form
     $request_id = $_POST['request_id'];
-    $action = $_POST['action'];
+    $action = $_POST['action']; 
 
     // Determine the new status based on the action
     $new_status = ($action == 'approve') ? 'Approved' : 'Rejected';
