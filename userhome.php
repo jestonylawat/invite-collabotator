@@ -20,7 +20,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
+            flex-direction: column; 
         }
 
         .top-buttons {
