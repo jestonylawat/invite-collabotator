@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $query = "UPDATE clearance_requests SET status = :new_status WHERE id = :request_id";
     $stmt = $pdo->prepare($query);
     $stmt->bindParam(':new_status', $new_status);
-    $stmt->bindParam(':request_id', $request_id);
+    $stmt->bindParam(':request_id', $request_id); 
 
     // Execute the update query
     if ($stmt->execute()) {
