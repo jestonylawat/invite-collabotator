@@ -56,7 +56,7 @@
         margin-left: 0;
       }
       .navbar {
-        margin-left: 0;
+        margin-left: 0; 
       }
     }
     @media (max-width: 575.98px) {
