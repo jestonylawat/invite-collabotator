@@ -9,7 +9,7 @@ $stmt = $pdo->query($query);
 $approved_requests = $stmt->fetchAll(PDO::FETCH_ASSOC); 
 
 // Close the database connection
-unset($pdo);
+unset($pdo); 
 ?>
 
 <!DOCTYPE html>
