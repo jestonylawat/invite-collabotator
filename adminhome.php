@@ -23,7 +23,7 @@
       color: #fff;
       padding: 15px;
       text-decoration: none;
-      display: block;
+      display: block; 
     }
     .sidebar a:hover {
       background-color: #007bff;
