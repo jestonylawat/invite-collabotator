@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->bind_param("ss", $username, $password);
     $stmt->execute();
-    $result = $stmt->get_result();
+    $result = $stmt->get_result(); 
 
     error_log("Number of rows found: " . $result->num_rows);
 
