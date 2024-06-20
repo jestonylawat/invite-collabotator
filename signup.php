@@ -26,7 +26,7 @@
       </div>
       <div class="mb-3">
         <label for="confirm-password" class="form-label">Confirm Password</label>
-        <input type="password" name="confirm-password" class="form-control" id="confirm-password">
+        <input type="password" name="confirm-password" class="form-control" id="confirm-password"> 
       </div>
       <div class="mb-1">
         <label class="form-label">Sign up as:</label>
