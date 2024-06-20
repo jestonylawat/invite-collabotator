@@ -2,7 +2,7 @@
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Include database connection file
-    include 'db_connection.php';
+    include 'db_connection.php'; 
 
     // Retrieve form data
     $username = $_POST['username'];
