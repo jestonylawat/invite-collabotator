@@ -20,7 +20,7 @@
       <?php
         // Check if the success parameter exists in the URL
         if (isset($_GET['success']) && $_GET['success'] == 1) {
-            echo '<div class="alert alert-success" role="alert">Signup successful! You can now login.</div>';
+            echo '<div class="alert alert-success" role="alert">Signup successful! You can now login.</div>'; 
         }
       ?>
       <h1 class="text-center p-3">LOGIN</h1>
