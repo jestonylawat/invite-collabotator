@@ -8,7 +8,7 @@ $stmt = $pdo->query($query);
 $clearance_requests = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Close the database connection
-unset($pdo);
+unset($pdo); 
 ?>
 
 <!DOCTYPE html>
