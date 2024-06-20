@@ -9,7 +9,7 @@ session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $username = $_POST['adminusername'];
-    $password = $_POST['adminpassword'];
+    $password = $_POST['adminpassword']; 
 
     // For debugging purposes: print received username and password
     error_log("Received Username: $username");
