@@ -25,9 +25,9 @@ if (isset($_POST['request_id'])) {
     $sql = "SELECT * FROM receipts WHERE request_id = ?";
     $stmt = $conn->prepare($sql);
     if ($stmt) {
-        $stmt->bind_param("i", $requestId);
+        $stmt->bind_param("i", $requestId); 
         $stmt->execute();
-        $result = $stmt->get_result();
+        $result = $stmt->get_result(); 
         
         if ($result->num_rows > 0) {
             $receipt = $result->fetch_assoc();
