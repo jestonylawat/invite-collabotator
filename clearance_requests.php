@@ -48,7 +48,7 @@ unset($pdo);
                             <form action="process_request.php" method="post">
                                 <input type="hidden" name="request_id" value="<?php echo htmlspecialchars($request['id']); ?>">
                                 <button type="submit" name="action" value="approve" class="btn btn-success">Approve</button>
-                                <button type="submit" name="action" value="reject" class="btn btn-danger">Reject</button>
+                                <button type="submit" name="action" value="reject" class="btn btn-danger">Reject</button> 
                             </form>
                         </td>
                     </tr>
