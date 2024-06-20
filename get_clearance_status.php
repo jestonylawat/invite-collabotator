@@ -28,7 +28,7 @@ if ($user_id > 0) {
         $clearance = $result_clearance->fetch_assoc();
         $request_id = $clearance["id"];
         $status = $clearance["status"];
-        $purpose = $clearance["purpose"];
+        $purpose = $clearance["purpose"]; 
         
         // Initialize receipt content
         $receiptContent = "Receipt not sent.";
