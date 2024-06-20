@@ -6,7 +6,7 @@ $dbname = "csystem";
 
 // Enable error reporting
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 1); 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
