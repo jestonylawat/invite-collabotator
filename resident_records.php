@@ -7,7 +7,7 @@ $stmt = $pdo->query("SELECT * FROM profiles");
 $resident_records = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Close the database connection
-unset($pdo);
+unset($pdo); 
 ?>
 
 <!DOCTYPE html>
