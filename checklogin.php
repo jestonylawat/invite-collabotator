@@ -33,5 +33,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 // Close database connection
-mysqli_close($conn);
+mysqli_close($conn); 
 ?>
