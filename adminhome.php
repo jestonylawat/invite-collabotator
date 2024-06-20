@@ -8,7 +8,7 @@
   <style>
     body {
       background: url(img/hdblue.jpg);
-      background-color: #f8f9fa;
+      background-color: #f8f9fa; 
     }
     .sidebar {
       height: 100vh;
