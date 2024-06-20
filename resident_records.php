@@ -21,7 +21,7 @@ unset($pdo);
 <body>
     <div class="container mt-4">
         <h2>Resident Records</h2>
-        <table class="table">
+        <table class="table"> 
             <thead>
                 <tr>
                     <th>Full Name</th>
