@@ -2,7 +2,7 @@
 include 'configure.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $purokNo = $photo = "";
+    $name = $purokNo = $photo = ""; 
 
     // Sanitize input
     $name = trim($_POST["fullName"]);
