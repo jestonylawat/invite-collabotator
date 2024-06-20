@@ -17,7 +17,7 @@ if ($conn->connect_error) {
 }
 
 // Log the received POST data for debugging
-file_put_contents('php://stderr', print_r($_POST, TRUE)); 
+file_put_contents('php://stderr', print_r($_POST, TRUE));  
 
 // Check if data is received
 if (isset($_POST['clearanceFullName']) && isset($_POST['clearancePurokNo']) && isset($_POST['clearancePurpose'])) {
