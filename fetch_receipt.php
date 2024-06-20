@@ -48,5 +48,5 @@ if (isset($_POST['request_id'])) {
     echo json_encode(array('status' => 'error', 'message' => 'Request ID is missing.'));
 }
 
-$conn->close();
+$conn->close(); 
 ?>
