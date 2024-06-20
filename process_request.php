@@ -1,6 +1,6 @@
 <?php
 // Include database configuration
-include 'configure.php';
+include 'configure.php'; 
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve request ID and action from the form
