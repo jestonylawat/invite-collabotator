@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "csystem";
+$dbname = "csystem"; 
 
 // Enable error reporting
 error_reporting(E_ALL);
