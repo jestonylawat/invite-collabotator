@@ -2,7 +2,7 @@
 // Include database connection file
 include 'db_connection.php';
 
-// Initialize session
+// Initialize session 
 session_start();
 
 // Check if the form is submitted
