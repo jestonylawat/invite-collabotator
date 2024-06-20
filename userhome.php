@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         body {
-            background-image: url('img/papers.jpg');
+            background-image: url('img/papers.jpg'); 
             background-size: cover;
             width: 100%;
             height: 100vh;
